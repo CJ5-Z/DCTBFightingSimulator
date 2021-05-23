@@ -97,11 +97,11 @@ namespace DCTBFightingSimulator
         //Changelog and Roadmap
         public void fillChangelog()
         {
-            //Current version: 0.2.3 (this), 0.2.2 (old)
+            //Current version: 0.?.? (this), 0.2.3 (old)
             changelogText.Text = "";
-            changelogText.AppendText("VERSON: 0.2.3");
-            changelogText.AppendText(Environment.NewLine + "Version 0.2.3 Release (#6) of DCTBFightingSimulator" + Environment.NewLine);
-            changelogText.AppendText(Environment.NewLine + Environment.NewLine + "v0.2.3 Changelog:");
+            changelogText.AppendText("VERSON: 0.2.3"); //Needs updating
+            changelogText.AppendText(Environment.NewLine + "Version 0.2.3 Release (#6) of DCTBFightingSimulator" + Environment.NewLine); //Needs updating
+            changelogText.AppendText(Environment.NewLine + Environment.NewLine + "v0.2.3 Changelog:"); //Needs updating
             changelogText.AppendText(Environment.NewLine + "This update brings a new METAL-type character along with some nice description changes.");
             changelogText.AppendText(Environment.NewLine + Environment.NewLine + "ADDITIONS:");
             changelogText.AppendText(Environment.NewLine + "- New Vanilla METAL-type character, Armaments");
