@@ -102,15 +102,10 @@ namespace DCTBFightingSimulator
             changelogText.AppendText("VERSON: 0.2.3"); //Needs updating
             changelogText.AppendText(Environment.NewLine + "Version 0.2.3 Release (#6) of DCTBFightingSimulator" + Environment.NewLine); //Needs updating
             changelogText.AppendText(Environment.NewLine + Environment.NewLine + "v0.2.3 Changelog:"); //Needs updating
-            changelogText.AppendText(Environment.NewLine + "This update brings a new METAL-type character along with some nice description changes.");
+            changelogText.AppendText(Environment.NewLine + "short desc");
             changelogText.AppendText(Environment.NewLine + Environment.NewLine + "ADDITIONS:");
-            changelogText.AppendText(Environment.NewLine + "- New Vanilla METAL-type character, Armaments");
-            changelogText.AppendText(Environment.NewLine + "- The 3rd DCTBFightingSimulator Tournament is here! View it here: https://challonge.com/ek6taz1m");
             changelogText.AppendText(Environment.NewLine + Environment.NewLine + "CHANGES:");
-            changelogText.AppendText(Environment.NewLine + "- Restructured Roadmap");
-            changelogText.AppendText(Environment.NewLine + "- Expanded the UI size of the changelog and roadmap");
-            changelogText.AppendText(Environment.NewLine + "- Changed EvE UI to now show the specific character names and move names during the simulation in the text window");
-            changelogText.AppendText(Environment.NewLine + Environment.NewLine + "BALANCING (note that user-submitted builds will never be actively balanced):");
+            changelogText.AppendText(Environment.NewLine + Environment.NewLine + "BALANCING (note that user-submitted builds will not be balanced):");
             changelogText.AppendText(Environment.NewLine + "No balancing changes this update.");
             //Post-Changes
             changelogText.AppendText(Environment.NewLine + Environment.NewLine + "This is only an initial release with baseline simulations working; expect PvE and local PvP features to come soon (see the roadmap for details) Please bring up any issues, questions, user-submitted builds, etc. on the github page.");
@@ -137,7 +132,6 @@ namespace DCTBFightingSimulator
             roadmapText.AppendText(Environment.NewLine + "- Update information displayed when attacking (i.e. mentioning the specific attack, more specific details on effects, etc.");
             roadmapText.AppendText(Environment.NewLine + "- Incorporating any user-submitted builds (recurring)");
             roadmapText.AppendText(Environment.NewLine + "- Balancing changes (recurring)");
-            roadmapText.AppendText(Environment.NewLine + "- Streamlining load times");
             roadmapText.AppendText(Environment.NewLine + "- Consolidating code / simplifying other events");
             roadmapText.AppendText(Environment.NewLine + Environment.NewLine + "User-submitted builds will be implemented in the very next release after submission, and will show up in the tournament.");
         }
