@@ -102,11 +102,12 @@ namespace DCTBFightingSimulator
             changelogText.AppendText("VERSON: 0.2.3"); //Needs updating
             changelogText.AppendText(Environment.NewLine + "Version 0.2.3 Release (#6) of DCTBFightingSimulator" + Environment.NewLine); //Needs updating
             changelogText.AppendText(Environment.NewLine + Environment.NewLine + "v0.2.3 Changelog:"); //Needs updating
-            changelogText.AppendText(Environment.NewLine + "short desc");
+            changelogText.AppendText(Environment.NewLine + "Version 0.3.0 brings more balancing changes, the first user-submitted builds, and (NEED A BIG CHANGE HERE)");
             changelogText.AppendText(Environment.NewLine + Environment.NewLine + "ADDITIONS:");
             changelogText.AppendText(Environment.NewLine + Environment.NewLine + "CHANGES:");
+            changelogText.AppendText(Environment.NewLine + "- Fixed incorrect seeding delta for a few characters on the seeding sheet");
             changelogText.AppendText(Environment.NewLine + Environment.NewLine + "BALANCING (note that user-submitted builds will not be balanced):");
-            changelogText.AppendText(Environment.NewLine + "No balancing changes this update.");
+            changelogText.AppendText(Environment.NewLine + "- ");
             //Post-Changes
             changelogText.AppendText(Environment.NewLine + Environment.NewLine + "This is only an initial release with baseline simulations working; expect PvE and local PvP features to come soon (see the roadmap for details) Please bring up any issues, questions, user-submitted builds, etc. on the github page.");
             changelogText.AppendText(Environment.NewLine + "Additionally, every time there is an update involving additional characters, new AI, or new gameplay features, an official tournament will be run. The link to view tournament results of the simulation between all characters will be found here. Custom-created, user-submitted builds will also be a part of the competition.");
