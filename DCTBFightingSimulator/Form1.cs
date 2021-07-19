@@ -97,12 +97,12 @@ namespace DCTBFightingSimulator
         //Changelog and Roadmap
         public void fillChangelog()
         {
-            //Current version: 0.?.? (this), 0.2.3 (old)
+            //Current version: 0.?.? (this), 0.2.3 (old) PROB NEXT: 0.3.0
             changelogText.Text = "";
             changelogText.AppendText("VERSON: 0.2.3"); //Needs updating
             changelogText.AppendText(Environment.NewLine + "Version 0.2.3 Release (#6) of DCTBFightingSimulator" + Environment.NewLine); //Needs updating
             changelogText.AppendText(Environment.NewLine + Environment.NewLine + "v0.2.3 Changelog:"); //Needs updating
-            changelogText.AppendText(Environment.NewLine + "Version 0.3.0 brings more balancing changes, the first user-submitted builds, and (NEED A BIG CHANGE HERE)");
+            changelogText.AppendText(Environment.NewLine + "Version 0.3.0 brings more balancing changes, the first user-submitted builds, and (large change if 0.3.0)");
             changelogText.AppendText(Environment.NewLine + Environment.NewLine + "ADDITIONS:");
             changelogText.AppendText(Environment.NewLine + Environment.NewLine + "CHANGES:");
             changelogText.AppendText(Environment.NewLine + "- Fixed incorrect seeding delta for a few characters on the seeding sheet");
